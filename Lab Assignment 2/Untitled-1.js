@@ -81,5 +81,26 @@ console.log(log, typeof log);
   comments can make code readable,
   easy to use and informative
 */
+//Type Conversion
+//Declare a variable price with the value "100".
+let price=100;
 
+//Convert price to a number and log the result.
+let priceNumber = Number(price);
+console.log(priceNumber);
+
+//Convert price back to a string and log the result.
+let priceString = String(priceNumber);
+console.log(priceString);
+
+//Template Literals
+//Create variables for your first name, last name, and favorite programming language.
+let First_Name3="Harsha";
+let Last_Name3="K";
+let favorite_programming_language="HTML";
+//Use template literals to display: Hi, I'm [first name] [last name], and my favorite language is [language].
+console.log(`I am ${First_Name3} ${Last_Name3} And My Favorite programming language is $favorite_programming_language}`);
+//Hint : \n \t 
+
+//Booleans
 
